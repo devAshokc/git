@@ -1,0 +1,42 @@
+#container {
+    background-color: aliceblue;
+    color: gray;
+}
+
+#head {
+    background-color: black;
+    color: rgb(189, 77, 77);
+}
+
+.para {
+    background-color: gray;
+    color: yellowgreen;
+}
+
+.main {
+    font-size: 1rem;
+}
+
+.main1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main2 {
+    background-color: aqua;
+    color: black;
+}
+
+.att1 {
+    background-color: black;
+}
+
+.att2 {
+    color: aqua;
+}
+
+.att3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 2rem;
+}

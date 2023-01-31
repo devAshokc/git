@@ -1,0 +1,15 @@
+.content {
+    background-color: skyblue;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 5px 15px;
+    border-left: 10px solid blue
+}
+
+.header {
+    font-weight: 200;
+}
+
+.para_content {
+    font-style: inherit;
+}

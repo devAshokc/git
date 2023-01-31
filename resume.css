@@ -1,0 +1,37 @@
+.profile {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 60%;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.About {
+    list-style-type: none;
+}
+
+.Content {
+    display: flex;
+    background-color: burlywood;
+    padding: 40px;
+    height: 250px;
+}
+
+
+/* .para {
+    font-weight: 100;
+} */
+
+.contact {
+    margin: 0px;
+    font-size: 15px;
+    background-color: hsl(0deg 28% 45%);
+}
+
+.contact_list {
+    list-style-type: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,33 @@
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    object-fit: cover;
+    margin-left: 150px;
+    cursor: pointer;
+    transition: 4s;
+    /* opacity: 0; */
+}
+
+img:active {
+    transform: scale(0.9);
+    /* opacity: 1; */
+}
+
+
+/* .bg {
+    background-color: peru;
+    height: 200px;
+    aspect-ratio: 1/1;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 0);
+}
+
+.bg:hover {
+    background-color: rgb(104, 11, 104);
+    transform: scale(0.9) rotate(360deg);
+    border-radius: 50%;
+    color: whitesmoke;
+} */

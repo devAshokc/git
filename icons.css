@@ -1,0 +1,49 @@
+.fb {
+    color: rgba(0, 0, 255, 0.644);
+    transition: 0.2s;
+}
+
+.fb:hover {
+    color: blue;
+    transform: scale(1.1);
+}
+
+.wa {
+    color: rgba(8, 223, 8, 0.63);
+    transition: 0.2s;
+}
+
+.wa:hover {
+    color: green;
+    transform: scale(1.1);
+}
+
+.insta {
+    color: rgba(236, 81, 24, 0.712);
+    transition: 0.2s;
+}
+
+.insta:hover {
+    color: orangered;
+    transform: scale(1.1);
+}
+
+.twi {
+    color: rgba(74, 188, 226, 0.705);
+    transition: 0.2s;
+}
+
+.twi:hover {
+    color: rgb(24, 172, 221);
+    transform: scale(1.1);
+}
+
+.tele {
+    color: rgba(5, 153, 202, 0.753);
+    transition: 0.2s;
+}
+
+.tele:hover {
+    color: rgb(11, 144, 189);
+    transform: scale(1.1);
+}

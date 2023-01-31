@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mouseover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatum debitis sed incidunt ut. Dolores, error minima. Dolorum et aperiam esse excepturi at. Deserunt dolores eius et explicabo harum dolorum.</div>
+
+    <script>
+        // var Ashok = setInterval(timer, 800)
+        // var count1 = 0;
+
+        // function timer() {
+        //     count1++
+        // console.log(count1)
+        // var result = document.getElementById('test')
+        // result.innerHTML = count1
+        // document.body.append(result)
+        // if (count1 >= 10) {
+        //     console.log(clearInterval(Ashok))
+        // }
+        // if (count1 === 10) {
+        //     console.log("YOU ARE SOMETHING DIFFERENT ASHOK")
+        //     var target = document.getElementById('test')
+        //     target.innerHTML = "BIG BILLON DAYS HAS STARTED ✨🎆🧨🎇🎊🎉"
+        //     document.body.append(target)
+        // }
+        // }
+
+        // let Ashok = new promise((resolved, result) => {
+        //     let age = 21;
+        //     if (age >= 18) {
+        //         setTimeout(() => {
+        //             resolved("Eligible Rto is verified")
+        //         }, 5000)
+        //     } else {
+        //         setTimeout(() => {
+        //             result("You are not Eligible")
+        //         }, 5000)
+        //     }
+        // })
+        // console.log("RTo is verified is Started")
+        // Ashok
+        // .then((msg) => console.log(msg))
+
+        let keerthana = new Promise((resolved, result) => {
+            let age = 21;
+            if (age >= 18) {
+                setTimeout(() => {
+                    resolved("Eligible Rto is verified")
+                }, 2 * 1000)
+            } else {
+                setTimeout(() => {
+                    result("You are not Eligible")
+                }, 2 * 1000)
+            }
+        })
+        keerthana
+            .then((msg) => "SuccessFully Completed buddy You are " + msg)
+            .then((msg1) => console.log(msg1))
+            .catch((msg) => {
+                "Better luck next time buddy" + msg;
+                console.log(msg)
+            })
+        fetch("")
+            // let a = 10;
+            // for (var i = a; i >= 1; i--) {
+            //     console.log(i)
+            // }
+
+
+        // let a = []
+        // let b = 4
+        // for (var i = 1; i <= 5; i++) {
+        //     a.push(b)
+        //     var res = a
+        // }
+        // for (var val of res) {
+        //     console.log(val)
+        // }
+        // let c = []
+        // let a = '123'.split('')
+        // console.log(a)
+        // var b = a.reduce((acc, cal) => {
+        //     return eval(acc + cal)
+        // })
+        // console.log(b)
+    </script>
+</body>
+
+</html>

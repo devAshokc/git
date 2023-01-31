@@ -1,0 +1,23 @@
+{
+    "pic": { "picture": "Cool😎 of Ashok" },
+    "Contact_info": {
+        "Name": "Ashok -> Full stack developer",
+        "Address": "33 west, Ponnagaram, 6th street, madurai",
+        "phone": "912356789",
+        "Email": "DavAshokc@gmail.com"
+    },
+    "Skills": {
+        "Language": ["Tamil", "English"],
+        "Business": "Stock market",
+        "Know_language": ["html", "css", "Javascript"]
+    },
+    "Education": {
+        "Completed_10th": 2017,
+        "Completed_12th": 2019,
+        "clg_Passout": 2022
+    },
+    "Certification": {
+        "Complition": "Basics of internet",
+        "Current": "Currently pursuing my paid intenship at \"Guvi\""
+    }
+}

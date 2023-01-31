@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors Dom</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        /* div {
+            background-color: burlywood;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>Ashok</h1>
+    <!-- <h1>Ashok</h1>
+    <h1>Ashok</h1>
+    <h1>Ashok</h1>
+    <h1>Ashok</h1>
+    <div>123</div> -->
+    <script>
+        // var label = document.createElement('label')
+        // label.innerHTML = 'Name: '
+        // label.setAttribute('Id', 'label')
+        // document.body.append(label)
+
+        // var head = document.createElement('input')
+        // head.setAttribute('type', "number")
+        // head.setAttribute('class', "heading")
+        // head.setAttribute('min-lenght', "10")
+        // head.setAttribute('max-lenght', "18")
+        // head.setAttribute('placeholder', "username")
+        // document.body.append(head)
+        // var bd = document.getElementsByTagName('body')
+        // var a = document.body.setAttribute('style', 'background-color: gray')
+        // var b = document.body.setAttribute('style', 'background-color: blue')
+        // var c = document.body.setAttribute('style', 'background-color: green')
+        // var d = document.body.setAttribute('style', 'background-color: violet')
+        // const colors = ['green', 'blue', 'gray', 'violet', 'indianred']
+        // var a = document.body.setAttribute('style', 'background-color: gray')
+        // document.getElementById('label').setAttribute('style', 'background-color: blueviolet; color: white;font-size: 25px')
+
+        const colors = ['green', 'blue', 'gray', 'violet', 'indianred']
+        var a = 0
+        var clr = setInterval(() => {
+            if (a == colors.length) {
+                clearInterval(clr)
+            }
+            console.log(a + 1, colors[a])
+            var h1 = document.getElementsByTagName('h1')
+            h1.style.colors = colors[a]
+            a = a + 1;
+        }, 2 * 1000)
+
+        //
+    </script>
+    <script src="colors.js"></script>
+</body>
+
+</html>

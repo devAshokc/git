@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settimeout to delay the code</title>
+</head>
+
+<body>
+    <script>
+        setTimeout(timer, 7000)
+        function timer() {
+            console.log("timer function is called")
+        }
+
+
+        setTimeout(() => {
+            console.log("timer1 function is called")
+        }, 5000);
+
+        setTimeout(timer3, 10000)
+        function timer3() {
+            console.log(`timer2 function is called`)
+        }
+
+
+        setTimeout(() => {
+            console.log("timer3 function is called")
+        }, 12000)
+    </script>
+</body>
+
+</html>
